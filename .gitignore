@@ -30,5 +30,8 @@ venv
 .coverage*
 htmlcov/
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
 # OSX
 .DS_STORE
