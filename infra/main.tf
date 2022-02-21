@@ -15,9 +15,9 @@ provider "aws" {
 }
 
 
-module "rightmove_scrape" {
+module "project_template" {
   aws_account_id = var.aws_account_id
   aws_region     = var.aws_region
   project        = var.project
-  source         = "./rightmove-scrape"
+  source         = "./project-template"
 }
