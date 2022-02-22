@@ -5,9 +5,8 @@ name = "pypi"
 
 [packages]
 requests = "*"
-pandas = "*"
-selenium = "*"
-numpy = "*"
+pandas = "==1.4.0"
+matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"
@@ -15,3 +14,4 @@ pytest = "*"
 
 [requires]
 python_version = "3.9"
+
